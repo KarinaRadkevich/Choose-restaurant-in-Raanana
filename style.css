@@ -1,0 +1,63 @@
+body {
+    background-color: #D8C4B6;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+
+.inputField {
+    display: flex;
+    justify-content: center;
+}
+
+.search {
+    width: 90%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #D8C4B6;
+    font-family: 'Lobster', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    color: #213555;
+    font-family: 'Lobster', sans-serif;
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.restaurant {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    padding: 20px;
+    margin-left: 100px;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #213555;
+    font-family: 'Lobster', sans-serif;
+}
+
+@media all and (max-width: 500px) {
+    .restaurant {
+        margin-left: 5px;
+    }
+
+    .inputField {
+        margin-left: 10px;
+    }
+
+    h1 {
+        margin-left: 10px;
+        font-size: 35px;
+    }
+}
